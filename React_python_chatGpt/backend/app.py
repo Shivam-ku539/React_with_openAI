@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set OpenAI API key
-openai.api_key = "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" #put your own OpenAI API key here
+openai.api_key = "Here" #put your own OpenAI API key here
 
 # Define API endpoint for chatbot
 @app.route('/chatbot', methods=['POST'])
